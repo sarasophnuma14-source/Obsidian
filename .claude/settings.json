@@ -1,7 +1,10 @@
 {
   "permissions": {
-    "allow": [
-      "Bash(curl * https://litterbox.catbox.moe/*)"
+    "allow": [],
+    "deny": [
+      "Bash(curl *catbox.moe*)",
+      "WebFetch(domain:catbox.moe)",
+      "WebFetch(domain:litterbox.catbox.moe)"
     ]
   }
 }
